@@ -96,7 +96,7 @@ public class CorpusExtractUtil {
 	}
 	
 	/**
-	 * 合并语料，这主要是因为测试TanCorp这个手工语料时写的
+	 * 合并语料，这主要是因为测试TanCorp这个手工语料是分类存储在不同文件中的，使用时不同类别的语料是放在不同文件中的。
 	 * @param config 分词服务配置
 	 * @param outputFilePath 输出文件路径
 	 * @param testCountLimit 测试集文章的数量
